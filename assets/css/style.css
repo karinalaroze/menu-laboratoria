@@ -1,0 +1,45 @@
+.flex-container{
+
+	display: flex;
+}
+
+*{
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+body{
+	background-color: 
+}
+
+nav{
+	background:#e74c3c;
+    padding: 20px;
+}
+
+nav ul{
+	list-style: none;
+	overflow: hidden;
+	flex-direction: row;
+	justify-content: space-around;/*Esto es para darle espacio entremedio de la seccion a la barra de navegacion */
+    
+}
+
+a{
+	text-decoration: none;
+	cursor: pointer;
+	color: whitesmoke;
+}
+
+.flex-container li a:hover{
+	background-color:#c0392b;
+	padding: 40px;
+}
+
+.menu-bar{
+	display: none;
+}
+
+i {
+	margin-right: 10px;
+}
