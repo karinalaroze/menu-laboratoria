@@ -1,6 +1,7 @@
 .flex-container{
 
 	display: flex;
+
 }
 
 *{
@@ -25,10 +26,11 @@ nav ul{
     
 }
 
-a{
+nav ul li a{
 	text-decoration: none;
 	cursor: pointer;
 	color: whitesmoke;
+	flex-grow: 1;
 }
 
 .flex-container li a:hover{
@@ -36,10 +38,63 @@ a{
 	padding: 40px;
 }
 
-.menu-bar{
-	display: none;
-}
-
 i {
 	margin-right: 10px;
 }
+
+
+.oculto{
+	display: none;
+}
+
+.menu{
+	display: none;
+}
+
+.oculto{
+	display: inline;
+}
+
+.menu{
+	background-color: #343130;
+	width: 100px;
+	margin: auto;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 550;
+}
+
+.menu a{
+	color: whitesmoke;
+	text-decoration: none;
+	padding: 8px; 16px;
+	border-right: 1px solid gray;
+	border-bottom: 1px solid black;
+	flex-grow: 1;
+	cursor: pointer;
+}
+
+.menu a:hover{
+	background-color: #26223d;
+}
+
+.oculto{
+	display: none;
+}
+
+.flex-container a:hover{
+	background-color: #303656;
+	padding: 26px 25px;
+}
+
+.menu a{
+	font-family: 'Montserrat', sans-serif;
+	color: whitesmoke;
+	display: block;
+	padding: 15px 15px;
+	border-color: whitesmoke;
+	padding: 20px;
+	flex:1;
+	flex-direction: center;
+}
+

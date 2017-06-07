@@ -1,0 +1,15 @@
+@media (min-width: 1px) and (max-width: 699px){
+ 	.menu{
+ 		background-color: black;
+ 	}
+    	.flex-container{
+ 	  	height:auto;
+ 	  	flex-direction: column;
+ 	}
+    	.menu a{
+     	width: 100%;
+     	border-bottom: 1px solid black;
+     	flex-direction: center;
+     	
+   }
+ } 
